@@ -5,6 +5,7 @@ import Register from './Components/Register';
 import Navigation from './Components/Navigation';
 import Home from './Components/Home';
 import About from './Components/About';
+import Profile from './Components/Profile';
 import './App.css';
 
 const particlesOptions = {
@@ -50,6 +51,10 @@ class App extends Component {
     {
       this.setState({isSignedIn: true,route: 'about'})
     }
+    else if(route1 === 'profile')
+    {
+      this.setState({isSignedIn: true,route: 'profile'})
+    }
     else {
     this.setState({route: route1});
     }
@@ -70,8 +75,10 @@ render(){
           : ( 
               route ==='about' 
               ? <About isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
+              : (route === 'profile' ? <Profile onRouteChange={this.onRouteChange} />
               :<Register onRouteChange={this.onRouteChange} />
-        )
+              )
+            )
           )
       }
    </div>

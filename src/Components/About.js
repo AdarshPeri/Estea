@@ -11,9 +11,7 @@ return(
   </header>
   <p className="fw1 i tc mt4 mt5-l f4 f3-l">Are you looking for one of these?</p>
    <ul className="list tc pl0 w-100 mt5">
-    <li className="dib"><p onClick={() => onRouteChange('home')} className="f5 f4-ns link black db pv2 ph3 hover-white" >Home</p></li>
-    <li className="dib"><p onClick={() => onRouteChange('signin')} className="f5 f4-ns link black db pv2 ph3 hover-white" >Sign In</p></li>
-    <li className="dib"><p onClick={() => onRouteChange('register')} className="f5 f4-ns link black db pv2 ph3 hover-white" >Sign Up</p></li>    
+    <li className="dib"><p onClick={() => onRouteChange('home')} className="f5 f4-ns link black db pv2 ph3 hover-white" >Home</p></li>  
   </ul>
 </section>
 );
