@@ -30,9 +30,6 @@ const Navigation = ({onRouteChange,isSignedIn}) => {
   				)
   		 }	    			 
 	}
-		
-	
-
 
 export default Navigation;
 
