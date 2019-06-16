@@ -8,16 +8,16 @@ class Home extends Component {
    		 const options = {
    		 	theme: 'dark2',
       title: {
-        text: "Column Chart"
+        text: "Travel Stats"
       },
       data: [{				
                 type: "column",
                 dataPoints: [
-                    { label: "Apple",  y: 10  },
-                    { label: "Orange", y: 15  },
-                    { label: "Banana", y: 25  },
-                    { label: "Mango",  y: 30  },
-                    { label: "Grape",  y: 28  }
+                    { label: "Ships",  y: 3  },
+                    { label: "Buses", y: 39  },
+                    { label: "Trains", y: 55  },
+                    { label: "Flights",  y: 30  },
+                    
                 ]
        }]
    					}
