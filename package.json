@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "canvasjs": "^1.8.1",
+    "fsevents": "1.2.8",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-minimal-pie-chart": "^4.2.0",
+    "react-particles-js": "^2.6.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "recharts": "^1.6.2",
+    "tachyons": "^4.11.1"
   },
   "scripts": {
     "start": "react-scripts start",
